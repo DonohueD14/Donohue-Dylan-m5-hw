@@ -1,0 +1,46 @@
+root{
+    --dk-green: #166212;
+    --md-green: #21941b;
+    --lt-green: #afceb1;
+    --br-green:#30d627;
+    --white: #fff;
+    --lt-gray: #eaeaea;
+    --dk-gray: #222;
+    --font: 'Sunflower', 'Trebuchet MS', sans-serif;
+}
+body{
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin: 0;
+    font: var(--font);
+    background-color: var(--lt-green);
+    color: var(--dk-gray);
+}
+a {
+    display: block;
+    padding: 1rem 1rem 1rem 1rem;
+}
+img{
+    display: block;
+}
+svg{
+    display: block;
+    margin: 0 auto;
+    fill: var(--dk-green);
+}
+p {
+    width: 100%;
+    max-width: 55ch;
+    margin: 0 auto;
+}
+header{
+    padding: 1rem;
+    width: 968px;
+    margin: 0 auto;
+    background-color: var(--white);
+    border-bottom: 8px var(--lt-green);
+    display: flex;
+    justify-items: space-between;
+    position: sticky;
+}
